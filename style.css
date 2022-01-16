@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+}
+/* header start */
+.header{
+    display: inline;
+    width: 50%;
+    padding: 5px 5px 0px;
+}
+/* header end */
+/* nav ul{
+    display: flex;
+    text-align: right;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav li:hover{
+    background-color: cornflowerblue;
+}
+nav li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+.nav_bt{
+    text-align: right;
+} */
+
+/* footer start */
+.footer{
+    background-color: rgb(28, 96, 141);
+    color: whitesmoke;
+    padding: 10px;
+
+}
+.footer_icon{
+    color: white;
+    display: inline;
+}
+/* footer end */
