@@ -30,11 +30,66 @@ nav li a{
     text-align: right;
 } */
 
+/* main section part-1 starts */
+.part-1{
+    display:flex;
+    
+}
+.part-1_body{
+    width:50%;
+    padding-left:10px;
+    padding-top: 50px;
+}
+.part-1_body img{
+    width:50%;
+    padding-left:20px;
+
+}
+.part-1_body img:hover{
+    color: cornflowerblue;
+    background-color:rgba(162, 75, 243, 0.205) ;
+    transform: scale(1.2);
+    transition: transform 1.5s ease-in-out;
+  }
+/* main section part-1 ends */
+/* main section part-3 starts */
+
+.part-3{
+    display:flex;
+    
+}
+.part-3_body{
+    width:50%;
+    padding-left:10px;
+    padding-top: 50px;
+}
+.part-3_body img{
+    width:50%;
+    padding-left:20px;
+
+}
+
+/* main section part-3 ends */
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(73, 73, 163),blueviolet);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 1px;
+  }
+  .fa-angle-double-right{
+    padding-left: 20px;
+  }
+
+/* main section part-1 ends */
+
 /* footer start */
 .footer{
-    background-color: rgb(28, 96, 141);
+    background-color: rgba(126, 23, 223, 0.527);
     color: whitesmoke;
     padding: 10px;
+    border-bottom: 0px;
     text-align: center;
 
 }
