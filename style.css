@@ -74,7 +74,7 @@ nav li a{
     box-shadow: 5px 5px 15px 2px #d4bfbf;
   }
 
-  .product-item img{
+  .product-image img{
       align-items: center;
   }
 
@@ -170,3 +170,35 @@ nav li a{
 }
 
 /* footer end */
+
+@media screen and (max-width:688px) {
+    .product-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .part-1_body button{
+        width: 50%;
+    }
+    .part-3_body button{
+        width: 50%;
+    }
+    .button{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width:688px) and (max-width:990px){
+    .product-container{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .part-1_body{
+      width: 50%;
+    }
+    .part-3_body{
+        width: 50%;
+      }
+    .button{
+      display: none;
+    }
+  }
+  
+   }
