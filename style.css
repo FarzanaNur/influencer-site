@@ -1,3 +1,4 @@
+/* import google font */
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body{
     font-family: 'Outfit', sans-serif;
@@ -34,10 +35,28 @@ nav li a{
     background-color: rgb(28, 96, 141);
     color: whitesmoke;
     padding: 10px;
+    text-align: center;
 
 }
+/* .footer_parts{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} */
 .footer_icon{
+    
+    display: flex;
     color: white;
-    display: inline;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.fab{
+
+    margin: 5px;
+
+}
+
 /* footer end */
